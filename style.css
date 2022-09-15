@@ -104,12 +104,12 @@ ul li a:hover {
 }
 
 .btn:hover {
-    color: bisque;
+    color: rgb(238, 208, 172);
     background-color: rgb(194, 64, 8);
 }
 
 .content {
-    width: 1200px;
+    width: 1000px;
     color: wheat;
     height:auto;
     margin: auto;
