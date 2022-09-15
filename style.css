@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background:url(bkg.jpeg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1500px;
+    height: 80px;
+}
+
+/* .icon{
+    width: 200px;
+    float: left;
+    height: 70vh;
+    
+} */
+
+.logo{
+    color:rgba(255, 68, 0, 0.908);
+    font-weight: 200;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 22px;
+    font-size: 17px;
+}
+
+ul li a {
+    text-decoration-line: none;
+    color: tan;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+ul li a:hover {
+    color:orange;
+}
+
+.search {
+    margin-left: 450px;
+    padding-top: 22px;
+    float: left;
+    width: 390px;
+}
+
+.srch {
+    font-family: 'Segoe UI',;
+    width: 210px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(144, 57, 25);
+    color: white;
+    border-right: none;
+    border-top: none;
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px 1px rgb(78, 63, 63);
+}
+
+.srch:focus {
+    outline: none;
+    cursor: alias;
+}
+
+.btn {
+    margin-left: 5px;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(180, 84, 32);
+    font-size: 14px;
+}
+
+.btn:hover {
+    color: bisque;
+    background-color: rgb(194, 64, 8);
+}
+
+.content {
+    width: 1200px;
+    color: wheat;
+    height:auto;
+    margin: auto;
+    position: relative;
+}
